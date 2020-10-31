@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/** @format */
+h1 {
+	font-family: 'Fredericka the Great', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Nav */
+.head {
+	background-color: #1287a5;
 }
+.header {
+	font-family: 'Righteous', cursive;
+}
+/* Nav */
+
+/* Home */
+.h {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+/* Home */
+
+/* AboutUs section */
+.acontainer {
+	background-image: url('./Images/PSX_20201031_151609.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+.about {
+	font-family: 'Black Ops One', cursive;
+}
+
+.para {
+	font-size: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+/* AboutUs section */
+
+/* Team */
+.team {
+	background-color: #1287a5;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+.cardp {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+/* Team */
+
+/* Video Section */
+.video {
+	font-family: 'Black Ops One', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #00cccd;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+.player {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+/* Video Section */
+
+/* Faq section */
+.faq {
+	font-family: 'Black Ops One', cursive;
+}
+.fa {
+	background-color: #1287a5;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+/* Faq section */
+
+/* Contact */
+.contact {
+	background-color: #00cccd;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+/* Contact */
+
+/* Footer */
+.footy {
+	font-family: 'Piedra', cursive;
+	background-color: #1287a5;
+}
+/* Footer */

@@ -1,26 +1,28 @@
+/** @format */
+
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Bar from './Components/Nav';
+import Faq from './Components/FAQSection';
+import VideoSection from './Components/VideoSection';
+import Home from './Components/Home';
+import AboutUs from './Components/AboutUs';
+import Team from './Components/TeamSection';
+import Footer from './Components/Footer';
+import Contact from './Components/ContactSection';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<Bar />
+			<Home />
+			<AboutUs />
+			<Team />
+			<VideoSection />
+			<Faq />
+			<Contact />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
